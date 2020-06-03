@@ -1,0 +1,2 @@
+class SequencePose < ApplicationRecord
+end

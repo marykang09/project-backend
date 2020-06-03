@@ -1,0 +1,2 @@
+class SequencePosesController < ApplicationController
+end

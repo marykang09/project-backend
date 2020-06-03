@@ -1,0 +1,2 @@
+class PosesController < ApplicationController
+end

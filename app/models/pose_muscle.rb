@@ -1,0 +1,2 @@
+class PoseMuscle < ApplicationRecord
+end

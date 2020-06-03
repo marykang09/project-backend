@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sequence_id: 1
+  pose_id: 1
+  position_num: 1
+
+two:
+  sequence_id: 1
+  pose_id: 1
+  position_num: 1
