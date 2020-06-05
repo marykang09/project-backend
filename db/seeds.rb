@@ -14,6 +14,14 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+#destroy all for every reseed
+Pose.destroy_all
+User.destroy_all
+Sequence.destroy_all
+SequencePose.destroy_all
+Muscle.destroy_all
+PoseMuscle.destroy_all
+
 
 data = File.read("#{Rails.root}/db/data/data.json")
 poses_array = JSON.parse(data)
@@ -35,11 +43,11 @@ mary = User.create(username: "maryk", first_name: "Mary", last_name: "Kang", pas
 sequence1 = Sequence.create(user: mary, name: "my first sequence", notes: "")
 
 #sequenceposes
-SequencePose.create(sequence_id: 1, pose_id: 1, position_num: 1)
+SequencePose.create(sequence: sequence1, pose: Pose.first, position_num: 1)
 
 #muscles
 Muscle.create(name: "hips", benefits: "relives tensions")
 
 #posemuscles
-PoseMuscle.create(pose_id: 1, muscle_id: 1)
+PoseMuscle.create(pose: Pose.first, muscle: Muscle.first)
 
