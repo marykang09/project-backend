@@ -2,9 +2,9 @@ class SequencesController < ApplicationController
 
     def index
         sequences = Sequence.all
-        render json: sequences.as_json(include: {sequence_poses: { only: [:sequence_id, :pose_id, :position_num]}})
+        render json: sequences.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
     end
-
+    #        render json: sequences.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
     def create
         sequence = Sequence.create(sequence_params)
         render json: sequence.as_json(include: :pose )

@@ -41,9 +41,17 @@ mary = User.create(username: "maryk", first_name: "Mary", last_name: "Kang", pas
 
 #sequences
 sequence1 = Sequence.create(user: mary, name: "my first sequence", notes: "")
+sequence2 = Sequence.create(user: mary, name: "my second sequence", notes: "")
+
 
 #sequenceposes
 SequencePose.create(sequence: sequence1, pose: Pose.first, position_num: 1)
+SequencePose.create(sequence: sequence2, pose: Pose.first, position_num: 1)
+SequencePose.create(sequence: sequence2, pose: Pose.last, position_num: 2)
+SequencePose.create(sequence: sequence2, pose: Pose.all.sample, position_num: 3)
+SequencePose.create(sequence: sequence2, pose: Pose.all.sample, position_num: 4)
+SequencePose.create(sequence: sequence2, pose: Pose.all.sample, position_num: 5)
+SequencePose.create(sequence: sequence2, pose: Pose.all.sample, position_num: 6)
 
 #muscles
 Muscle.create(name: "hips", benefits: "relives tensions")
