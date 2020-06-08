@@ -4,16 +4,22 @@ class SequencesController < ApplicationController
         sequences = Sequence.all
         render json: sequences.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
     end
-    #        render json: sequences.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
+
+    def show
+        sequence = Sequence.find(params[:id])
+        render json: sequence.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
+    end
+    
     def create
+        
         sequence = Sequence.create(sequence_params)
-        render json: sequence.as_json(include: :pose )
+        render json: sequence.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
     end
 
     def update
         sequence = Sequence.find(params[:id])
         sequence.update(sequence_params)
-        render json: sequence.as_json(include: :pose)
+        render json: sequence.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
     end
 
     def destroy
