@@ -19,6 +19,7 @@ class SequencesController < ApplicationController
 
     def update
         sequence = Sequence.find(params[:id])
+        # byebug 
         sequence.update(sequence_params)
         render json: sequence.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
     end

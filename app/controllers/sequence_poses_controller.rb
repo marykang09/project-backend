@@ -6,6 +6,12 @@ class SequencePosesController < ApplicationController
         render json: sequence_pose.as_json(include: :pose )
     end
 
+    def update
+        sequence_pose = SequencePose.find(params[:id]) 
+        sequence_pose.update(sequence_pose_params)
+        render json: sequence_pose.as_json(include: :pose )
+    end
+
     def destroy
         sequence_pose = SequencePose.find(params[:id])
         sequence_pose.destroy
