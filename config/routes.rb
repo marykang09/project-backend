@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :user_quotes
+  resources :quotes
   resources :muscles
   resources :pose_muscles
   resources :poses

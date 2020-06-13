@@ -1,0 +1,740 @@
+[
+    {
+      "id": 1,
+      "sanskrit_name": "Navasana",
+      "english_name": "Boat",
+      "img_url": "https://i.ibb.co/R6FYqVv/3382272-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.902Z",
+      "updated_at": "2016-01-14T22:23:39.902Z"
+    },
+    {
+      "id": 3,
+      "sanskrit_name": "Dhanurasana",
+      "english_name": "Bow",
+      "img_url": "https://i.ibb.co/J2NLP5Z/3382270-84.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.912Z",
+      "updated_at": "2016-01-14T22:23:39.912Z"
+    },
+    {
+      "id": 4,
+      "sanskrit_name": "Setu Bandha Sarvangasana",
+      "english_name": "Bridge",
+      "img_url": "https://i.ibb.co/t4WsHrK/3382269-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.914Z",
+      "updated_at": "2016-01-14T22:23:39.914Z"
+    },
+    {
+      "id": 5,
+      "sanskrit_name": "Baddha Konasana",
+      "english_name": "Butterfly",
+      "img_url": "https://i.ibb.co/zJySt8w/3382278-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.917Z",
+      "updated_at": "2016-01-14T22:23:39.917Z"
+    },
+    {
+      "id": 6,
+      "sanskrit_name": "Ustrasana",
+      "english_name": "Camel",
+      "img_url": "https://i.ibb.co/sqRSCgZ/3382276-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.920Z",
+      "updated_at": "2016-01-14T22:23:39.920Z"
+    },
+    {
+      "id": 7,
+      "sanskrit_name": "Marjaryasana",
+      "english_name": "Cat",
+      "img_url": "https://i.ibb.co/VY2m0Jj/3382271-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.922Z",
+      "updated_at": "2016-01-14T22:23:39.922Z"
+    },
+    {
+      "id": 8,
+      "sanskrit_name": "Bitilasana",
+      "english_name": "Cow",
+      "img_url": "https://i.ibb.co/BPFpXTK/3382280-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.924Z",
+      "updated_at": "2016-01-14T22:23:39.924Z"
+    },
+    {
+      "id": 9,
+      "sanskrit_name": "Utkatasana",
+      "english_name": "Chair",
+      "img_url": "https://i.ibb.co/kJtdV0R/3382273-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.926Z",
+      "updated_at": "2016-01-14T22:23:39.926Z"
+    },
+    {
+      "id": 10,
+      "sanskrit_name": "Balasana",
+      "english_name": "Child's Pose",
+      "img_url": "https://i.ibb.co/dJgyyTP/3382462-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.929Z",
+      "updated_at": "2016-01-14T22:23:39.929Z"
+    },
+    {
+      "id": 11,
+      "sanskrit_name": "Sivasana",
+      "english_name": "Corpse",
+      "img_url": "https://i.ibb.co/wzxrxgh/3382457-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.931Z",
+      "updated_at": "2016-01-14T22:23:39.931Z"
+    },
+    {
+      "id": 12,
+      "sanskrit_name": "Alanasana",
+      "english_name": "Crescent Lunge",
+      "img_url": "https://i.ibb.co/YL6GMRR/3382470-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.933Z",
+      "updated_at": "2016-01-14T22:23:39.933Z"
+    },
+    {
+      "id": 13,
+      "sanskrit_name": "Bakasana",
+      "english_name": "Crow",
+      "img_url": "https://i.ibb.co/4Rx2xKR/3382453-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.935Z",
+      "updated_at": "2016-01-14T22:23:39.935Z"
+    },
+    {
+      "id": 14,
+      "sanskrit_name": "Ardha Pincha Mayurasana",
+      "english_name": "Dolphin",
+      "img_url": "https://i.ibb.co/KXQqMWQ/3382461-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.939Z",
+      "updated_at": "2016-01-14T22:23:39.939Z"
+    },
+    {
+      "id": 15,
+      "sanskrit_name": "Adho Mukha Svanasana",
+      "english_name": "Downward-Facing Dog",
+      "img_url": "https://i.ibb.co/yWQfK9j/3382458-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.944Z",
+      "updated_at": "2016-01-14T22:23:39.944Z"
+    },
+    {
+      "id": 16,
+      "sanskrit_name": "Garudasana",
+      "english_name": "Eagle",
+      "img_url": "https://i.ibb.co/MSb2kG8/3382459-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.946Z",
+      "updated_at": "2016-01-14T22:23:39.946Z"
+    },
+    {
+      "id": 18,
+      "sanskrit_name": "Utthita Parsvakonasana",
+      "english_name": "Extended Side Angle",
+      "img_url": "https://i.ibb.co/bBFJhGN/3382471-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.952Z",
+      "updated_at": "2016-01-14T22:23:39.952Z"
+    },
+    {
+      "id": 19,
+      "sanskrit_name": "Pincha Mayurasana",
+      "english_name": "Forearm Stand",
+      "img_url": "https://ibb.co/gmWQckP",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.954Z",
+      "updated_at": "2016-01-14T22:23:39.954Z"
+    },
+    {
+      "id": 20,
+      "sanskrit_name": "Uttanasana",
+      "english_name": "Forward Bend with Shoulder Opener",
+      "img_url": "https://ibb.co/pPWjrHw",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.957Z",
+      "updated_at": "2016-01-14T22:23:39.957Z"
+    },
+    {
+      "id": 21,
+      "sanskrit_name": "Ardha Chandrasana",
+      "english_name": "Half-Moon",
+      "img_url": "https://ibb.co/VtQBywD",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.959Z",
+      "updated_at": "2016-01-14T22:23:39.959Z"
+    },
+    {
+      "id": 22,
+      "sanskrit_name": "Adho Mukha Vrksasana",
+      "english_name": "Handstand",
+      "img_url": "https://ibb.co/SsLpDQQ",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.962Z",
+      "updated_at": "2016-01-14T22:23:39.962Z"
+    },
+    {
+      "id": 23,
+      "sanskrit_name": "Anjaneyasana",
+      "english_name": "Low Lunge",
+      "img_url": "https://ibb.co/nR9gkkN",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.964Z",
+      "updated_at": "2016-01-14T22:23:39.964Z"
+    },
+    {
+      "id": 24,
+      "sanskrit_name": "Eka Pada Rajakapotasana",
+      "english_name": "Pigeon",
+      "img_url": "https://i.ibb.co/4g0ndny/3382446-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.967Z",
+      "updated_at": "2016-01-14T22:23:39.967Z"
+    },
+    {
+      "id": 25,
+      "sanskrit_name": "Eka Pada Rajakapotasana",
+      "english_name": "King Pigeon",
+      "img_url": "https://ibb.co/BysKJS0",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.970Z",
+      "updated_at": "2016-01-14T22:23:39.970Z"
+    },
+    {
+      "id": 26,
+      "sanskrit_name": "Phalakasana",
+      "english_name": "Plank",
+      "img_url": "https://ibb.co/hmpRz4F",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.972Z",
+      "updated_at": "2016-01-14T22:23:39.972Z"
+    },
+    {
+      "id": 27,
+      "sanskrit_name": "Halasana",
+      "english_name": "Plow",
+      "img_url": "https://i.ibb.co/tBnmJDK/3382445-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.977Z",
+      "updated_at": "2016-01-14T22:23:39.977Z"
+    },
+    {
+      "id": 28,
+      "sanskrit_name": "Parsvottanasana",
+      "english_name": "Pyramid",
+      "img_url": "https://ibb.co/sQdP4t5",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.979Z",
+      "updated_at": "2016-01-14T22:23:39.979Z"
+    },
+    {
+      "id": 29,
+      "sanskrit_name": "Parsva Virabhadrasana",
+      "english_name": "Reverse Warrior",
+      "img_url": "https://ibb.co/yFV7Qbg",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.982Z",
+      "updated_at": "2016-01-14T22:23:39.982Z"
+    },
+    {
+      "id": 30,
+      "sanskrit_name": "Paschimottanasana",
+      "english_name": "Seated Forward Fold",
+      "img_url": "https://i.ibb.co/h8SPSLR/3382465-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.984Z",
+      "updated_at": "2016-01-14T22:23:39.984Z"
+    },
+    {
+      "id": 31,
+      "sanskrit_name": "Padmasana",
+      "english_name": "Lotus",
+      "img_url": "https://i.ibb.co/Sd7fRZb/3382475-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.986Z",
+      "updated_at": "2016-01-14T22:23:39.986Z"
+    },
+    {
+      "id": 32,
+      "sanskrit_name": "Ardha Matsyendrasana",
+      "english_name": "Half Lord of the Fishes",
+      "img_url": "https://ibb.co/MMhkQVJ",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.989Z",
+      "updated_at": "2016-01-14T22:23:39.989Z"
+    },
+    {
+      "id": 33,
+      "sanskrit_name": "Salamba Sarvangasana",
+      "english_name": "Shoulder Stand",
+      "img_url": "https://ibb.co/hKVDbyR",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.991Z",
+      "updated_at": "2016-01-14T22:23:39.991Z"
+    },
+    {
+      "id": 34,
+      "sanskrit_name": "Vasisthasana",
+      "english_name": "Side Plank",
+      "img_url": "https://ibb.co/DVmvHfr",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.993Z",
+      "updated_at": "2016-01-14T22:23:39.993Z"
+    },
+    {
+      "id": 35,
+      "sanskrit_name": "Salamba Bhujangasana",
+      "english_name": "Sphinx",
+      "img_url": "https://ibb.co/bRkrQ3b",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.995Z",
+      "updated_at": "2016-01-14T22:23:39.995Z"
+    },
+    {
+      "id": 36,
+      "sanskrit_name": "Urdhva Prasarita Eka Padasana",
+      "english_name": "Standing Splits",
+      "img_url": "https://ibb.co/LhrHcLp",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:39.998Z",
+      "updated_at": "2016-01-14T22:23:39.998Z"
+    },
+    {
+      "id": 37,
+      "sanskrit_name": "Malasana",
+      "english_name": "Yogi Squat",
+      "img_url": "https://i.ibb.co/nMJ6MNh/3382469-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.000Z",
+      "updated_at": "2016-01-14T22:23:40.000Z"
+    },
+    {
+      "id": 38,
+      "sanskrit_name": "Uttanasana",
+      "english_name": "Standing Forward Bend",
+      "img_url": "https://ibb.co/0tZN3pF",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.003Z",
+      "updated_at": "2016-01-14T22:23:40.003Z"
+    },
+    {
+      "id": 39,
+      "sanskrit_name": "Ashta Chandrasana",
+      "english_name": "Crescent Moon",
+      "img_url": "https://ibb.co/VtQBywD",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.006Z",
+      "updated_at": "2016-01-14T22:23:40.006Z"
+    },
+    {
+      "id": 40,
+      "sanskrit_name": "Upavistha Konasana",
+      "english_name": "Side Splits",
+      "img_url": "https://ibb.co/c29rj8Q",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.009Z",
+      "updated_at": "2016-01-14T22:23:40.009Z"
+    },
+    {
+      "id": 41,
+      "sanskrit_name": "Vrksasana",
+      "english_name": "Tree",
+      "img_url": "https://ibb.co/0D4z41K",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.020Z",
+      "updated_at": "2016-01-14T22:23:40.020Z"
+    },
+    {
+      "id": 42,
+      "sanskrit_name": "Trikonasana",
+      "english_name": "Triangle",
+      "img_url": "https://i.ibb.co/k18jBsK/3382474-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.022Z",
+      "updated_at": "2016-01-14T22:23:40.022Z"
+    },
+    {
+      "id": 43,
+      "sanskrit_name": "Urdhva Mukha Svsnssana",
+      "english_name": "Upward-Facing Dog",
+      "img_url": "https://ibb.co/sQnm2MM",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.025Z",
+      "updated_at": "2016-01-14T22:23:40.025Z"
+    },
+    {
+      "id": 44,
+      "sanskrit_name": "Virabhadrasana One",
+      "english_name": "Warrior One",
+      "img_url": "https://ibb.co/C26bnPS",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.027Z",
+      "updated_at": "2016-01-14T22:23:40.027Z"
+    },
+    {
+      "id": 45,
+      "sanskrit_name": "Virabhadrasana Two",
+      "english_name": "Warrior Two",
+      "img_url": "https://ibb.co/DQkFt1S",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.029Z",
+      "updated_at": "2016-01-14T22:23:40.029Z"
+    },
+    {
+      "id": 46,
+      "sanskrit_name": "Virabhadrasana Three",
+      "english_name": "Warrior Three",
+      "img_url": "https://ibb.co/hKdymDf",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.032Z",
+      "updated_at": "2016-01-14T22:23:40.032Z"
+    },
+    {
+      "id": 47,
+      "sanskrit_name": "Urdhva Dhanurasana",
+      "english_name": "Wheel",
+      "img_url": "https://ibb.co/BLLw114",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.034Z",
+      "updated_at": "2016-01-14T22:23:40.034Z"
+    },
+    {
+      "id": 48,
+      "sanskrit_name": "Camatkarasana",
+      "english_name": "Wild Thing",
+      "img_url": "https://www.dropbox.com/s/d1dbdvo4l7xry4w/downdogflip.svg?raw=1",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 49,
+      "sanskrit_name": "Utkatasana",
+      "english_name": "Chair Pose - Variation: Iron Chair on Tip Toes",
+      "img_url": "https://i.ibb.co/JkDPLBD/3382275-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 50,
+      "sanskrit_name": "Gomukhasana",
+      "english_name": "Cow Face",
+      "img_url": "https://i.ibb.co/0hcHP8C/3382277-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 51,
+      "sanskrit_name": "Sasangasana",
+      "english_name": "Rabbit",
+      "img_url": "https://i.ibb.co/z7xxdmP/3382279-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 52,
+      "sanskrit_name": "Mandukasana",
+      "english_name": "Frog",
+      "img_url": "https://i.ibb.co/hMrp4Sy/3382463-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 53,
+      "sanskrit_name": "Ananda Balasana",
+      "english_name": "Happy Baby",
+      "img_url": "https://i.ibb.co/KK5hmPz/3382464-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    }, 
+    {
+      "id": 54,
+      "sanskrit_name": "Viparita Karani",
+      "english_name": "Happy Baby",
+      "img_url": "https://i.ibb.co/4RNRRRS/3382466-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 55,
+      "sanskrit_name": "Matsyasana",
+      "english_name": "Fish",
+      "img_url": "https://i.ibb.co/8rDbLFH/3382467-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    }, 
+    {
+      "id": 56,
+      "sanskrit_name": "Vajrasana",
+      "english_name": "Thunderbolt",
+      "img_url": "https://i.ibb.co/Vtgkfcy/3382468-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 57,
+      "sanskrit_name": "Virabhadrasana",
+      "english_name": "King Arthur's Pose",
+      "img_url": "https://i.ibb.co/4FsVGRj/3382472-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 58,
+      "sanskrit_name": "Salabhasana",
+      "english_name": "Locust",
+      "img_url": "https://i.ibb.co/vcByjhh/3382473-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 59,
+      "sanskrit_name": "Utkata Konasana",
+      "english_name": "Goddess",
+      "img_url": "https://i.ibb.co/SB4XFxG/3382476-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 60,
+      "sanskrit_name": "Sirsasana",
+      "english_name": "Headstand",
+      "img_url": "https://i.ibb.co/mNzFnY3/3382477-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 61,
+      "sanskrit_name": "Chaturanga Dandasana",
+      "english_name": "Low Plank",
+      "img_url": "https://i.ibb.co/rmQtMGc/3382444-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 62,
+      "sanskrit_name": "Makara Adho Mukha Svanasana",
+      "english_name": "Forearm Plank",
+      "img_url": "https://i.ibb.co/QYFTTNp/3382447-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    }, 
+    {
+      "id": 63,
+      "sanskrit_name": "Samasthiti",
+      "english_name": "Standing At Attention",
+      "img_url": "https://i.ibb.co/mqLSv9T/3382448-200.png",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 64,
+      "sanskrit_name": "Anjali Mudra",
+      "english_name": "Prayer",
+      "img_url": "https://ibb.co/swBrnNR",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 65,
+      "sanskrit_name": "Baddha Hasta Uttanasana",
+      "english_name": "Ragdoll",
+      "img_url": "https://ibb.co/y41gmzG",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 66,
+      "sanskrit_name": "Parivrtta Anjaneyasana",
+      "english_name": "Revolved Crescent Lunge",
+      "img_url": "https://ibb.co/FYYmH78",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 67,
+      "sanskrit_name": "Supta Jaṭhara Parivartānāsana",
+      "english_name": "Supine Twist",
+      "img_url": "https://ibb.co/B3nf8k6",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 68,
+      "sanskrit_name": "Parivrtta Trikonasana",
+      "english_name": "Revolved Triangle",
+      "img_url": "https://ibb.co/Ch7hqk3",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 69,
+      "sanskrit_name": "Dandasana",
+      "english_name": "Staff",
+      "img_url": "https://ibb.co/rfVYgN7",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 70,
+      "sanskrit_name": "Supta Kapotasana",
+      "english_name": "Supine Pigeon",
+      "img_url": "https://ibb.co/WD1LMqT",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 71,
+      "sanskrit_name": "Upavistha Konasana",
+      "english_name": "Wide-Angle Seated Forward Fold",
+      "img_url": "https://ibb.co/WD1LMqT",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 72,
+      "sanskrit_name": "Parsva Balasana",
+      "english_name": "Thread the Needle",
+      "img_url": "https://ibb.co/zPqBxXN",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 73,
+      "sanskrit_name": "Purvottanasana",
+      "english_name": "Upward Plank",
+      "img_url": "https://ibb.co/pWZpFg6",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 74,
+      "sanskrit_name": "Tadasana",
+      "english_name": "Mountain",
+      "img_url": "https://ibb.co/0D6X1Gd",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 75,
+      "sanskrit_name": "Padangusthasana",
+      "english_name": "Toe Stand",
+      "img_url": "https://ibb.co/pbLqhMy",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 76,
+      "sanskrit_name": "Supta Baddha Konasana",
+      "english_name": "Reclined Bound Angle",
+      "img_url": "https://ibb.co/xCypLfL",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 77,
+      "sanskrit_name": "Prasarita Padottanasana",
+      "english_name": "Wide-Legged Forward Fold",
+      "img_url": "https://ibb.co/FDhHq0M",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 78,
+      "sanskrit_name": "Parivrtta Prasarita Padottanasana",
+      "english_name": "Revolved Wide-Legged Forward Fold",
+      "img_url": "https://ibb.co/W5R2t4G",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 79,
+      "sanskrit_name": "Karnapidasana",
+      "english_name": "Deaf Man's Pose",
+      "img_url": "https://ibb.co/kMvbRGR",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 80,
+      "sanskrit_name": "Uttana Shishosana",
+      "english_name": "Puppy",
+      "img_url": "https://ibb.co/gMdfkLb",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 81,
+      "sanskrit_name": "Eka Pada Koundinyasana II",
+      "english_name": "Hurdler's",
+      "img_url": "https://ibb.co/R2YGk7V",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 82,
+      "sanskrit_name": "Svarga Dvijasana",
+      "english_name": "Bird of Paradise",
+      "img_url": "https://ibb.co/bzgp2q5",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 83,
+      "sanskrit_name": "Eka Pada Galavasana",
+      "english_name": "Flying Pigeon",
+      "img_url": "https://ibb.co/58DW4d5",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    },
+    {
+      "id": 84,
+      "sanskrit_name": "Natarajasana",
+      "english_name": "King Dancer",
+      "img_url": "https://ibb.co/XZ8n32k",
+      "muscle_identifier": 1,
+      "created_at": "2016-01-14T22:23:40.036Z",
+      "updated_at": "2016-01-14T22:23:40.036Z"
+    }
+  ]

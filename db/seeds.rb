@@ -21,8 +21,10 @@ Sequence.destroy_all
 SequencePose.destroy_all
 Muscle.destroy_all
 PoseMuscle.destroy_all
+Quote.destroy_all
+UserQuote.destroy_all
 
-
+# poses data
 data = File.read("#{Rails.root}/db/data/data.json")
 poses_array = JSON.parse(data)
 
@@ -52,6 +54,24 @@ SequencePose.create(sequence: sequence2, pose: Pose.all.sample, position_num: 3)
 SequencePose.create(sequence: sequence2, pose: Pose.all.sample, position_num: 4)
 SequencePose.create(sequence: sequence2, pose: Pose.all.sample, position_num: 5)
 SequencePose.create(sequence: sequence2, pose: Pose.all.sample, position_num: 6)
+
+#quotes
+quote_data = File.read("#{Rails.root}/db/data/quotes.json")
+quotes_array = JSON.parse(quote_data)
+
+
+quotes_array.each do |quote|
+    Quote.create(
+        quote: quote["quote"],
+        author: quote["author"]
+    )
+end
+
+#userquotes
+uq1 = UserQuote.create(user: User.first, quote: Quote.first)
+
+
+
 
 #muscles
 Muscle.create(name: "hips", benefits: "relives tensions")
