@@ -7,11 +7,11 @@ class AuthController < ApplicationController
         if user && user.authenticate(params[:password])
             payload = {user_id: user.id}
             token = encode(payload)
-            new_hash = {}
-            new_hash["user_data"] = user
-            new_hash["token"] = token
-
-            render json: new_hash
+            # new_hash = {}
+            # new_hash["user_data"] = user.as_json #include everything here
+            # new_hash["token"] = token
+            # render json: new_hash
+            render :json => {user_data: user.as_json(include: [ { sequences: { include: {sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}}}, :user_quotes ]), token: token}
         else
             #username wasn't found or password incorrect
             render json: {
