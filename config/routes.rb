@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  post '/login', to: 'auth#create'
+  get '/users/decode_token', to: 'users#decode_token'
   resources :user_quotes
   resources :quotes
   resources :muscles
