@@ -11,8 +11,8 @@ class SequencesController < ApplicationController
     end
     
     def create
-        mary = User.all.first # use this for now since no other users
-        sequence = Sequence.create(user_id: mary.id, name: params[:name], notes: params[:notes] )
+        # mary = User.all.first - use this for now since no other users
+        sequence = Sequence.create(user_id: params[:user_id], name: params[:name], notes: params[:notes] )
         # change to strong params after user is built
         render json: sequence.as_json(include: [ { sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}])
     end

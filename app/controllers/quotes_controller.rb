@@ -4,4 +4,5 @@ class QuotesController < ApplicationController
         render json: Quote.all
     end
 
+
 end
