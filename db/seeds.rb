@@ -25,7 +25,7 @@ Quote.destroy_all
 UserQuote.destroy_all
 
 # poses data
-data = File.read("#{Rails.root}/db/data/data.json")
+data = File.read("#{Rails.root}/db/data/posedata.json")
 poses_array = JSON.parse(data)
 
 #poses
@@ -34,7 +34,9 @@ poses_array.each do |pose|
         english_name: pose["english_name"],
         sanskrit_name: pose["sanskrit_name"],
         img_url: pose["img_url"],
-        muscle_identifer: pose["muscle_identifer"]
+        category: pose["category"],
+        action: pose["action"],
+        difficulty: pose["difficulty"]
     )
 end
 
