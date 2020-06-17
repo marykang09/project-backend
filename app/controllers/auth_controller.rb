@@ -11,7 +11,8 @@ class AuthController < ApplicationController
             # new_hash["user_data"] = user.as_json #include everything here
             # new_hash["token"] = token
             # render json: new_hash
-            render :json => {user_data: user.as_json(include: [ { sequences: { include: {sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}}}, :user_quotes ]), token: token}
+            # render :json => {user_data: user.as_json(include: [ { sequences: { include: {sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}}}, :user_quotes ]), token: token}
+            render :json => {user_data: user.as_json(include: [ { sequences: { include: {sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}}}, {user_quotes: {include: {quote: {except: [:created_at, :updated_at]}}}}]), token: token}
         else
             #username wasn't found or password incorrect
             render json: {

@@ -27,7 +27,8 @@ class UsersController < ApplicationController
         token = request.headers["Authenticate"]
         user = User.find(decode(token)["user_id"])
         # render json: user.as_json(include: [ { sequences: { include: {sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}}}, :user_quotes ])
-        render :json => {user_data: user.as_json(include: [ { sequences: { include: {sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}}}, :user_quotes ]), token: token}
+        # render :json => {user_data: user.as_json(include: [ { sequences: { include: {sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}}}, :user_quotes ]), token: token}
+        render :json => {user_data: user.as_json(include: [ { sequences: { include: {sequence_poses: { include: {pose: {except: [:created_at, :updated_at]}}}}}}, {user_quotes: {include: {quote: {except: [:created_at, :updated_at]}}}}]), token: token}
     end
 
     

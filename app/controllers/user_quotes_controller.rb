@@ -1,5 +1,10 @@
 class UserQuotesController < ApplicationController
 
+    def index
+        user_quotes = UserQuote.all
+        render json: user_quotes.as_json(include: :quote)
+    end
+
     def create
         user_quote = UserQuote.create(user_quote_params)
         render json: user_quote.as_json(include: :quote)
