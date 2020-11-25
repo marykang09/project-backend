@@ -17,6 +17,8 @@ class UserQuotesController < ApplicationController
     end
 
     def destroy
+        # testing = 48
+        # user_quote = UserQuote.find_by(id: 48)
         user_quote = UserQuote.find(params[:id])
         user_quote.destroy
     end
