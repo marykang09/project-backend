@@ -1,25 +1,27 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## FlowFind
 
-Things you may want to cover:
+FlowFind is a web application for yoga students of all styles and levels. Use this app to learn about yoga poses, find inspiriation, create, edit and save your own yoga sequences.
 
-* Ruby version
+### Check out the live app here:
+[FlowFind](https://flowfind.netlify.app/)
 
-* System dependencies
+### Backend Build:
+- Ruby on Rails
+- RESTful API and MVC pattern
+- validation and authentication utilizing Bcrypt gem and JWT
 
-* Configuration
+### Frontend:
+Check out the backend [here](https://github.com/marykang09/project-frontend)
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# project-backend
+## Instructions
+- Clone this repo and navigate to it
+- run `bundle install`
+- run `rails db:create`
+- run `rails db:migrate`
+- run `rails db:seed`
+- run `rails s`
+- ensure rails is running on http://localhost:3000
+- Clone the [frontend](https://github.com/marykang09/project-frontend) repo and follow the instructions
